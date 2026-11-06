@@ -1,0 +1,48 @@
+{
+  "pilot": {
+    "price": 190,
+    "pieces": 10,
+    "weeks": 2
+  },
+  "plans": [
+    {
+      "id": "base",
+      "perWeek": 3,
+      "price": 290,
+      "channels": [
+        "instagram",
+        "facebook"
+      ],
+      "changes": 48,
+      "publish": false
+    },
+    {
+      "id": "estandar",
+      "perWeek": 5,
+      "price": 450,
+      "channels": [
+        "instagram",
+        "facebook",
+        "tiktok"
+      ],
+      "changes": 24,
+      "publish": true,
+      "recommended": true
+    },
+    {
+      "id": "completo",
+      "perWeek": 8,
+      "price": 690,
+      "channels": [
+        "instagram",
+        "facebook",
+        "tiktok",
+        "youtube",
+        "linkedin"
+      ],
+      "changes": 24,
+      "publish": true,
+      "priority": true
+    }
+  ]
+}

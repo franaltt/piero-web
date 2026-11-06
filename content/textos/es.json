@@ -1,0 +1,388 @@
+{
+  "intro": {
+    "hi": "Hola, soy Piero.",
+    "ask": "¿Qué querés que te muestre?",
+    "prompt": "Desplegá la página de Piero",
+    "ok": "Dale, ya te la armo:",
+    "steps": [
+      "Colgando las herramientas",
+      "Cargando el trabajo",
+      "Listo"
+    ],
+    "skip": "Saltar intro",
+    "placeholder": "Escribí un mensaje…",
+    "send": "Enviar",
+    "online": "en línea",
+    "typing": "escribiendo…"
+  },
+  "nav": {
+    "work": "El trabajo",
+    "how": "Cómo funciona",
+    "about": "Sobre mí",
+    "pricing": "Precios",
+    "faq": "Preguntas",
+    "resources": "Recursos",
+    "cta": "Muestra gratis",
+    "menu": "Menú",
+    "close": "Cerrar"
+  },
+  "hero": {
+    "title": "Automatizo tu contenido para que publiques todas las semanas.",
+    "lead": "Creo el contenido de tu marca con tus productos reales, sigo lo que está funcionando en tu rubro y lo publico apenas me das el OK.",
+    "cta": "Pedí tu muestra gratis",
+    "ctaAlt": "Ver el trabajo",
+    "tilesLabel": "Herramientas con las que trabaja Piero. Podés agarrarlas y moverlas."
+  },
+  "statement": "De una foto de tu producto {0} {1} sale un mes de contenido {2} {3} {4}: anuncios, carruseles y videos {5} listos para publicar.",
+  "savia": {
+    "kicker": "Savia Tierra Patagonia",
+    "title": "Tu producto no necesita un día de producción.",
+    "lead": "Con una foto de tu producto armo anuncios, carruseles y videos que no se parecen entre sí: la historia de la fundadora, la nota del teléfono, el video casero, la comparación, el aviso limpio.",
+    "source": "La foto que mandó",
+    "count": "piezas",
+    "foot": "Una foto de producto · veinte piezas · ningún formato repetido",
+    "formats": {
+      "historia": "Historia",
+      "nativo": "Nota del teléfono",
+      "anuncio": "Anuncio",
+      "casero": "Video casero",
+      "lifestyle": "Lifestyle",
+      "comparativa": "Comparativa"
+    }
+  },
+  "game": {
+    "title": "¿Cuál es la foto real?",
+    "lead": "Una es real. La otra la hice yo, a partir de una foto. Tocá la que creas que es la real.",
+    "round": "Ronda",
+    "of": "de",
+    "real": "Real",
+    "mine": "La hice yo",
+    "right": "Bien, esa es la real.",
+    "wrong": "No: esa la hice yo.",
+    "notes": [
+      "La otra nunca pasó por un estudio de fotos.",
+      "Soy yo las dos veces: una es una selfie y la otra la hice sin cámara.",
+      "Una es la foto de catálogo. La otra la hice yo."
+    ],
+    "next": "Siguiente ronda",
+    "results": "Ver resultado",
+    "scoreLead": "Acertaste",
+    "perfect": "Tenés buen ojo. Tus clientes no lo van a tener.",
+    "good": "Casi. Así de difícil es notar la diferencia.",
+    "none": "Así de difícil es notar la diferencia.",
+    "cta": "Pedí tu muestra gratis",
+    "again": "Jugar de nuevo",
+    "pick": "Elegir la foto"
+  },
+  "how": {
+    "title": "Cómo funciona",
+    "lead": "Me pasás lo que tengas. Del resto me encargo yo. De tu parte, unos minutos por semana para mirar y aprobar desde el celular.",
+    "steps": [
+      {
+        "t": "Me mandás tus fotos",
+        "d": "Las del celular sirven. Con tu Instagram y un par de fotos ya puedo empezar.",
+        "when": "Día 1"
+      },
+      {
+        "t": "Armo la ficha de tu marca",
+        "d": "Colores, logo, forma de hablar, a quién le vendés y qué está funcionando en tu rubro. La pruebo antes de la primera semana.",
+        "when": "Días 2 y 3"
+      },
+      {
+        "t": "Cada semana recibís tu contenido",
+        "d": "Reels, carruseles, historias y anuncios para aprobar desde el celular. Lo publicás vos o te lo publico yo.",
+        "when": "Cada lunes"
+      },
+      {
+        "t": "Cada cambio mejora lo que sigue",
+        "d": "Me pedís un cambio y lo corrijo esa misma semana. La ficha se actualiza y la próxima tanda ya sale como te gusta.",
+        "when": "Esa misma semana"
+      }
+    ],
+    "phone": {
+      "chat": "Piero",
+      "online": "en línea",
+      "send": "Te paso las fotos que tengo",
+      "ok": "Con esto alcanza. Arranco.",
+      "ficha": "Ficha de tu marca",
+      "rows": [
+        {
+          "k": "Tono",
+          "v": "Cercano, sin vueltas"
+        },
+        {
+          "k": "Colores",
+          "v": ""
+        },
+        {
+          "k": "Le vende a",
+          "v": "Mujeres de 28 a 45"
+        },
+        {
+          "k": "Rubro",
+          "v": "Lo que anda esta semana"
+        }
+      ],
+      "week": "Esta semana",
+      "days": [
+        "L",
+        "M",
+        "M",
+        "J",
+        "V",
+        "S",
+        "D"
+      ],
+      "pieces": "4 piezas",
+      "approve": "Aprobar todo",
+      "approved": "Aprobadas",
+      "ask": "Este fondo, más claro",
+      "fixed": "Listo, ya está corregido",
+      "learned": "Ficha actualizada: fondos claros"
+    }
+  },
+  "about": {
+    "title": "Soy Piero.",
+    "body": "Hace dos años que creo contenido para marcas. Empecé con mi propia cuenta y de ahí salió este sistema. Todo lo pruebo primero en mis redes, y lo que funciona lo uso con la tuya.",
+    "role": "Contenido para marcas",
+    "stats": {
+      "clients": "Clientes",
+      "pieces": "Piezas",
+      "years": "Años"
+    },
+    "flip": "Dar vuelta la carta",
+    "flipShort": "Girar",
+    "backTitle": "¿Armamos el contenido de tu marca?",
+    "backCta": "Pedí tu muestra gratis",
+    "follow": "Seguime",
+    "clientsLabel": "Marcas con las que trabajé"
+  },
+  "pricing": {
+    "title": "Probalo dos semanas con tu marca.",
+    "ticket": {
+      "name": "El piloto",
+      "once": "Una sola vez",
+      "pieces": "piezas",
+      "weeks": "semanas",
+      "includes": "8 imágenes, 1 carrusel y 1 video, en dos entregas semanales, con la ficha de tu marca y el texto de cada pieza.",
+      "discount": "Si seguimos, se descuenta del primer mes.",
+      "admit": "Válido para",
+      "admitV": "1 marca",
+      "guarantee": "Si no publicarías lo que te mando, te devuelvo los USD {price} y las piezas quedan tuyas igual.",
+      "stamp": "Devolución garantizada",
+      "cta": "Empezá por la muestra gratis"
+    },
+    "plansTitle": "Después, elegí cuánto querés publicar.",
+    "perWeek": "piezas por semana",
+    "perMonth": "al mes",
+    "month": "/ mes",
+    "names": {
+      "base": "Base",
+      "estandar": "Estándar",
+      "completo": "Completo"
+    },
+    "recommended": "El que recomiendo",
+    "week": [
+      "L",
+      "M",
+      "M",
+      "J",
+      "V",
+      "S",
+      "D"
+    ],
+    "formats": "Imágenes, carruseles y videos",
+    "publishYes": "Publicación incluida, si querés",
+    "publishNo": "La publicación la hacés vos",
+    "noContract": "Sin contrato. Pagás mes a mes y cortás cuando quieras.",
+    "cta": "Quiero este plan",
+    "changes": "Cambios en hasta {h} h",
+    "priority": ", con prioridad"
+  },
+  "faq": {
+    "title": "Lo que me preguntan antes de arrancar.",
+    "lead": "Tocá una pregunta y te respondo.",
+    "typing": "Piero está escribiendo…",
+    "items": [
+      {
+        "q": "¿Se nota que lo hice yo y no una cámara?",
+        "a": "Es la parte en la que más trabajo: si se nota, la pieza no sirve. Por eso existe el piloto: mirás diez piezas hechas para tu marca antes de comprometerte, y si no las publicarías te devuelvo lo que pagaste."
+      },
+      {
+        "q": "¿Cuánto tiempo me lleva a mí?",
+        "a": "Al principio, una charla para conocer tu marca. Después, unos minutos por semana para mirar lo que te mando y aprobarlo o pedirme cambios."
+      },
+      {
+        "q": "¿Tengo que grabarme?",
+        "a": "No. Los videos los hago con tu producto y con personas creadas para tu marca, filmados como los filmaría un cliente. Si querés aparecer vos, también se puede."
+      },
+      {
+        "q": "¿Me lo publicás vos?",
+        "a": "Podés elegir. Si te lo publico yo, conectás tu cuenta una sola vez a la herramienta con la que programo, sin pasarme tu contraseña. Si preferís subirlo vos, te lo entrego listo con el texto de cada pieza."
+      },
+      {
+        "q": "¿Qué pasa si no me gusta una pieza?",
+        "a": "Me pedís el cambio y lo corrijo en la misma semana. La ficha de tu marca se queda con ese cambio, así no tenés que pedirlo de nuevo."
+      },
+      {
+        "q": "¿Hay contrato?",
+        "a": "No. Se arranca con el piloto de USD {price}, que se descuenta del primer mes si seguimos. Después es mes a mes y avisás cuando querés cortar."
+      }
+    ]
+  },
+  "sample": {
+    "title": "Pedí tu muestra gratis.",
+    "lead": "Respondé cinco preguntas y te preparo un anuncio con los productos de tu marca.",
+    "points": [
+      "Lista en 48 h",
+      "Sin costo ni compromiso",
+      "Te escribo yo, no un bot"
+    ],
+    "step": "Paso",
+    "of": "de",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "qs": [
+      {
+        "k": "rubro",
+        "q": "¿Qué vendés?",
+        "opts": [
+          "Ropa y accesorios",
+          "Cosmética y belleza",
+          "Comida y bebida",
+          "Salud y bienestar",
+          "Hogar y deco",
+          "Turismo y gastronomía",
+          "Servicios",
+          "Otro"
+        ]
+      },
+      {
+        "k": "ig",
+        "q": "¿Cuál es el Instagram de tu negocio?",
+        "input": "tumarca"
+      },
+      {
+        "k": "hoy",
+        "q": "¿Quién hace tu contenido hoy?",
+        "opts": [
+          "Yo",
+          "Una diseñadora o CM",
+          "Una agencia",
+          "Nadie"
+        ]
+      },
+      {
+        "k": "frecuencia",
+        "q": "¿Cada cuánto publicás?",
+        "opts": [
+          "Casi nunca",
+          "Una vez por semana",
+          "Varias por semana"
+        ]
+      },
+      {
+        "k": "inversion",
+        "q": "¿Cuánto podés invertir por mes en contenido?",
+        "opts": [
+          "Menos de USD 150",
+          "De USD 150 a 300",
+          "Más de USD 300"
+        ]
+      }
+    ],
+    "labels": {
+      "rubro": "Vendo",
+      "ig": "Instagram",
+      "hoy": "Hace el contenido",
+      "frecuencia": "Publico",
+      "inversion": "Puedo invertir"
+    },
+    "done": "Listo. Esto es lo que me llega:",
+    "send": "Enviar por WhatsApp",
+    "fine": "Se abre un chat conmigo con tus respuestas ya escritas.",
+    "hello": "Hola Piero, quiero mi muestra gratis."
+  },
+  "footer": {
+    "big": "¿Empezamos?",
+    "lead": "Escribime y en 48 h tenés tu primera pieza.",
+    "wa": "Escribime por WhatsApp",
+    "play": "Tiralas",
+    "nav": "Página",
+    "social": "Redes",
+    "contact": "Contacto",
+    "resources": "Recursos y guías gratis",
+    "rights": "Todos los derechos reservados.",
+    "top": "Volver arriba"
+  },
+  "work": {
+    "title": "El trabajo",
+    "sub": "Anuncios, videos y videos caseros para marcas de distintos rubros. Arrastrá para recorrerlos.",
+    "filters": {
+      "all": "Todo",
+      "anuncio": "Anuncios",
+      "video": "Videos",
+      "casero": "Video casero"
+    },
+    "types": {
+      "anuncio": "Anuncio",
+      "video": "Video",
+      "casero": "Video casero"
+    },
+    "drag": "Arrastrá",
+    "view": "Ver",
+    "play": "Play",
+    "close": "Cerrar",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "sound": "Con sonido",
+    "rubros": {
+      "agriturismo": "Agriturismo",
+      "cosmetica": "Cosmética",
+      "deporte": "Deporte",
+      "panaderia": "Panadería",
+      "cocina": "Cocina",
+      "cine": "Cine",
+      "sangucheria": "Sanguchería",
+      "bebidas": "Bebidas",
+      "automotor": "Automotor",
+      "musica": "Música",
+      "moda": "Moda",
+      "inmobiliaria": "Inmobiliaria",
+      "barberia": "Barbería",
+      "producto": "Producto"
+    }
+  },
+  "offer": {
+    "badge": "Oferta",
+    "until": "Hasta el {date}",
+    "close": "Cerrar"
+  },
+  "recursos": {
+    "nav": "Recursos",
+    "title": "Recursos gratis.",
+    "lead": "Las guías y herramientas con las que hago mi contenido. Las guías son gratis: dejás tu mail y te llegan al toque.",
+    "filters": {
+      "all": "Todo",
+      "guia": "Guías",
+      "prompt": "Prompts"
+    },
+    "pages": "páginas",
+    "free": "Gratis",
+    "get": "Bajala gratis",
+    "email": "Tu mail",
+    "send": "Mandámela",
+    "sending": "Enviando…",
+    "ok": "Listo. Revisá tu mail (y el spam, por las dudas).",
+    "already": "Ya estabas en la lista. Revisá tu mail.",
+    "error": "No se pudo enviar. Probá de nuevo o escribime por WhatsApp.",
+    "invalid": "Ese mail no parece válido.",
+    "skillTag": "Skill · pago único",
+    "buy": "Quiero {name}",
+    "notifyTitle": "Vienen más.",
+    "notifyLead": "Dejame tu mail y te aviso cuando salga la próxima guía o skill.",
+    "notifyBtn": "Avisame",
+    "back": "Volver a la página",
+    "featured": "La más bajada"
+  }
+}

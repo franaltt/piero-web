@@ -1,0 +1,227 @@
+{
+  "mailchimp": {
+    "url": "",
+    "guide_field": ""
+  },
+  "skill": {
+    "active": true,
+    "name": "IRIS",
+    "price": 29,
+    "buy_url": "",
+    "video": "/recursos/iris-demo.mp4",
+    "desc": {
+      "es": "Reels sin cara sobre un lienzo que nunca corta: las tarjetas flotan, la palabra clave vuela al centro y el título se arma con tu voz. Le pasás el guion y tu voz a tu IA, y te devuelve el reel.",
+      "it": "Reel senza volto su una tela che non si interrompe mai: le card fluttuano, la parola chiave vola al centro e il titolo si compone con la tua voce. Dai il copione e la tua voce alla tua IA, e lei ti restituisce il reel.",
+      "en": "Faceless reels on a canvas that never cuts: cards float, the keyword flies to the center and the title builds with your voice. Give your AI the script and your voice, and it hands you the reel."
+    },
+    "bullets": {
+      "es": [
+        "Corre en tu compu, sin claves ni costo por video.",
+        "Pago único. La usás para vos y para tus clientes.",
+        "Funciona con Claude Code, Codex y otras IAs que usan skills.",
+        "Trae un ejemplo armado para probarla en cinco minutos."
+      ],
+      "it": [
+        "Gira sul tuo computer, senza chiavi né costi per video.",
+        "Pagamento unico. La usi per te e per i tuoi clienti.",
+        "Funziona con Claude Code, Codex e altre IA che usano skill.",
+        "Include un esempio pronto per provarla in cinque minuti."
+      ],
+      "en": [
+        "Runs on your computer, no keys and no cost per video.",
+        "One-time payment. Use it for yourself and your clients.",
+        "Works with Claude Code, Codex and other AIs that use skills.",
+        "Comes with a ready example to try it in five minutes."
+      ]
+    }
+  },
+  "guides": [
+    {
+      "slug": "que-tu-web-no-parezca-hecha-por-ia",
+      "kind": "guia",
+      "pages": 8,
+      "cover": "/recursos/img/que-tu-web-no-parezca-hecha-por-ia.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Que tu web no parezca hecha por IA",
+        "it": "Che il tuo sito non sembri fatto con l’IA",
+        "en": "Make your website not look AI-made"
+      },
+      "desc": {
+        "es": "Las tres herramientas que hacen que una web armada con IA se vea de diseñador, con el pedido exacto para cada una.",
+        "it": "I tre strumenti che fanno sembrare da designer un sito fatto con l’IA, con la richiesta esatta per ognuno.",
+        "en": "The three tools that make an AI-built website look designer-made, with the exact prompt for each one."
+      }
+    },
+    {
+      "slug": "openmontage",
+      "kind": "guia",
+      "pages": 9,
+      "cover": "/recursos/img/openmontage.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "OpenMontage",
+        "it": "OpenMontage",
+        "en": "OpenMontage"
+      },
+      "desc": {
+        "es": "Una productora de video adentro de tu IA. Qué instalar, qué pedirle y cuánto sale cada video.",
+        "it": "Una casa di produzione video dentro la tua IA. Cosa installare, cosa chiederle e quanto costa ogni video.",
+        "en": "A video production studio inside your AI. What to install, what to ask for and what each video costs."
+      }
+    },
+    {
+      "slug": "claude-motion-designer",
+      "kind": "guia",
+      "pages": 10,
+      "cover": "/recursos/img/claude-motion-designer.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Tu IA como motion designer",
+        "it": "La tua IA come motion designer",
+        "en": "Your AI as a motion designer"
+      },
+      "desc": {
+        "es": "Cómo hago las animaciones de mis reels, paso a paso.",
+        "it": "Come faccio le animazioni dei miei reel, passo dopo passo.",
+        "en": "How I make the animations in my reels, step by step."
+      }
+    },
+    {
+      "slug": "claude-motion",
+      "kind": "guia",
+      "pages": 10,
+      "cover": "/recursos/img/claude-motion.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Claude Motion",
+        "it": "Claude Motion",
+        "en": "Claude Motion"
+      },
+      "desc": {
+        "es": "Animaciones de marca con Claude Code, del pedido al video.",
+        "it": "Animazioni di brand con Claude Code, dalla richiesta al video.",
+        "en": "Brand animations with Claude Code, from prompt to video."
+      }
+    },
+    {
+      "slug": "carruseles-en-canva",
+      "kind": "guia",
+      "pages": 9,
+      "cover": "/recursos/img/carruseles-en-canva.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Carruseles en tu Canva",
+        "it": "Caroselli nel tuo Canva",
+        "en": "Carousels in your Canva"
+      },
+      "desc": {
+        "es": "Tu IA arma el carrusel adentro de tu cuenta de Canva, editable.",
+        "it": "La tua IA crea il carosello dentro il tuo account Canva, modificabile.",
+        "en": "Your AI builds the carousel inside your Canva account, fully editable."
+      }
+    },
+    {
+      "slug": "skills-de-diseno",
+      "kind": "guia",
+      "pages": 9,
+      "cover": "/recursos/img/skills-de-diseno.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Skills de diseño",
+        "it": "Skill di design",
+        "en": "Design skills"
+      },
+      "desc": {
+        "es": "Las que le suman criterio de diseño a tu IA, y cuál usar para qué.",
+        "it": "Quelle che danno criterio di design alla tua IA, e quale usare per cosa.",
+        "en": "The ones that give your AI design sense, and which to use for what."
+      }
+    },
+    {
+      "slug": "hairline",
+      "kind": "guia",
+      "pages": 9,
+      "cover": "/recursos/img/hairline.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Hairline",
+        "it": "Hairline",
+        "en": "Hairline"
+      },
+      "desc": {
+        "es": "Ilustraciones con trazo fino hechas con IA, con su receta.",
+        "it": "Illustrazioni a tratto sottile fatte con l’IA, con la ricetta.",
+        "en": "Fine-line illustrations made with AI, with the recipe."
+      }
+    },
+    {
+      "slug": "un-mes-desde-una-foto",
+      "kind": "guia",
+      "pages": 8,
+      "cover": "/recursos/img/un-mes-desde-una-foto.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Un mes de contenido desde una foto",
+        "it": "Un mese di contenuti da una foto",
+        "en": "A month of content from one photo"
+      },
+      "desc": {
+        "es": "De una sola foto de producto a las piezas de todo un mes.",
+        "it": "Da una sola foto di prodotto ai contenuti di un mese intero.",
+        "en": "From a single product photo to a whole month of pieces."
+      }
+    },
+    {
+      "slug": "prompt-angulos-ilimitados",
+      "kind": "prompt",
+      "pages": 3,
+      "cover": "/recursos/img/prompt-angulos-ilimitados.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Prompt: ángulos ilimitados",
+        "it": "Prompt: angolazioni illimitate",
+        "en": "Prompt: unlimited angles"
+      },
+      "desc": {
+        "es": "Una toma y todos los ángulos de cámara que quieras.",
+        "it": "Una ripresa e tutte le angolazioni che vuoi.",
+        "en": "One shot and every camera angle you want."
+      }
+    },
+    {
+      "slug": "prompt-pensaste-que-era-real",
+      "kind": "prompt",
+      "pages": 3,
+      "cover": "/recursos/img/prompt-pensaste-que-era-real.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Prompt: pensaste que era real",
+        "it": "Prompt: pensavi fosse vero",
+        "en": "Prompt: you thought it was real"
+      },
+      "desc": {
+        "es": "El prompt del video que nadie creía hecho con IA.",
+        "it": "Il prompt del video che nessuno credeva fatto con l’IA.",
+        "en": "The prompt behind the video nobody believed was AI."
+      }
+    },
+    {
+      "slug": "animar-tus-videos",
+      "kind": "prompt",
+      "pages": 3,
+      "cover": "/recursos/img/animar-tus-videos.webp",
+      "mailchimp_tag": "",
+      "title": {
+        "es": "Animá tus videos con IA",
+        "it": "Anima i tuoi video con l’IA",
+        "en": "Animate your videos with AI"
+      },
+      "desc": {
+        "es": "Tu video grabado, convertido en animación.",
+        "it": "Il tuo video registrato, trasformato in animazione.",
+        "en": "Your recorded video, turned into animation."
+      }
+    }
+  ]
+}

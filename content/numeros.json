@@ -1,0 +1,28 @@
+{
+  "clients": 50,
+  "pieces": 400,
+  "years": 2,
+  "clients_brands": [
+    "Solco",
+    "Savia Tierra",
+    "Miga",
+    "Kankay",
+    "Guchini"
+  ],
+  "socials": [
+    {
+      "name": "Instagram",
+      "handle": "@piero.ia",
+      "url": "https://www.instagram.com/piero.ia/"
+    },
+    {
+      "name": "TikTok",
+      "handle": "@piero.ia",
+      "url": "https://www.tiktok.com/@piero.ia"
+    }
+  ],
+  "whatsapp": {
+    "number": "393806399359",
+    "display": "+39 380 639 9359"
+  }
+}

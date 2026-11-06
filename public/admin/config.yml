@@ -1,0 +1,1420 @@
+# Generado por scripts/generar-panel.py — no editar a mano
+backend:
+  name: github
+  repo: franaltt/piero-web
+  branch: main
+  commit_messages:
+    update: 'Panel: actualiza {{slug}}'
+local_backend: true
+locale: es
+logo_url: /admin/logo.svg
+media_folder: public/uploads
+public_folder: /uploads
+collections:
+- name: ventas
+  label: Precios y ofertas
+  editor:
+    preview: false
+  files:
+  - name: oferta
+    label: Oferta
+    file: content/oferta.json
+    format: json
+    fields:
+    - name: active
+      label: Oferta prendida
+      widget: boolean
+      hint: Prendela para que aparezca en la web. Se apaga sola cuando pasa la fecha.
+    - name: until
+      label: Válida hasta (inclusive)
+      widget: datetime
+      format: YYYY-MM-DD
+      date_format: DD/MM/YYYY
+      time_format: false
+    - name: applies_to
+      label: Se aplica a
+      widget: select
+      options:
+      - label: El piloto
+        value: pilot
+      - label: Plan base
+        value: base
+      - label: Plan estandar
+        value: estandar
+      - label: Plan completo
+        value: completo
+    - name: price
+      label: Precio de oferta (USD)
+      widget: number
+      value_type: int
+    - name: title
+      label: Título
+      widget: object
+      fields:
+      - name: es
+        label: Español
+        widget: string
+      - name: it
+        label: Italiano
+        widget: string
+        required: false
+      - name: en
+        label: Inglés
+        widget: string
+        required: false
+    - name: text
+      label: Texto ({price} = precio de oferta, {regular} = precio normal, {until} = fecha)
+      widget: object
+      fields:
+      - name: es
+        label: Español
+        widget: text
+      - name: it
+        label: Italiano
+        widget: text
+        required: false
+      - name: en
+        label: Inglés
+        widget: text
+        required: false
+    - name: cta
+      label: Texto del botón
+      widget: object
+      fields:
+      - name: es
+        label: Español
+        widget: string
+      - name: it
+        label: Italiano
+        widget: string
+        required: false
+      - name: en
+        label: Inglés
+        widget: string
+        required: false
+  - name: precios
+    label: Precios
+    file: content/precios.json
+    format: json
+    fields:
+    - name: pilot
+      label: El piloto
+      widget: object
+      fields:
+      - name: price
+        label: Precio (USD)
+        widget: number
+        value_type: int
+      - name: pieces
+        label: Piezas
+        widget: number
+        value_type: int
+      - name: weeks
+        label: Semanas
+        widget: number
+        value_type: int
+    - name: plans
+      label: Planes mensuales
+      widget: list
+      summary: '{{fields.id}} · USD {{fields.price}}'
+      fields:
+      - name: id
+        label: Código del plan (no cambiar)
+        widget: string
+        hint: base, estandar o completo. El nombre visible se cambia en Textos → Precios.
+      - name: perWeek
+        label: Piezas por semana
+        widget: number
+        value_type: int
+      - name: price
+        label: Precio por mes (USD)
+        widget: number
+        value_type: int
+      - name: channels
+        label: Redes incluidas
+        widget: select
+        multiple: true
+        options:
+        - label: Instagram
+          value: instagram
+        - label: Facebook
+          value: facebook
+        - label: TikTok
+          value: tiktok
+        - label: YouTube Shorts
+          value: youtube
+        - label: LinkedIn
+          value: linkedin
+      - name: changes
+        label: Cambios en hasta (horas)
+        widget: number
+        value_type: int
+      - name: publish
+        label: Publicación incluida
+        widget: boolean
+        required: false
+      - name: recommended
+        label: Es el que recomiendo
+        widget: boolean
+        required: false
+      - name: priority
+        label: Cambios con prioridad
+        widget: boolean
+        required: false
+- name: datos
+  label: Números, contacto y trabajos
+  editor:
+    preview: false
+  files:
+  - name: numeros
+    label: Números y contacto
+    file: content/numeros.json
+    format: json
+    fields:
+    - name: clients
+      label: Clientes (+)
+      widget: number
+      value_type: int
+    - name: pieces
+      label: Piezas hechas (+)
+      widget: number
+      value_type: int
+    - name: years
+      label: Años creando contenido
+      widget: number
+      value_type: int
+    - name: clients_brands
+      label: Marcas de la cinta
+      widget: list
+      field:
+        name: marca
+        label: Marca
+        widget: string
+    - name: socials
+      label: Redes
+      widget: list
+      summary: '{{fields.name}}'
+      fields:
+      - name: name
+        label: Red
+        widget: string
+      - name: handle
+        label: Usuario
+        widget: string
+      - name: url
+        label: Link
+        widget: string
+    - name: whatsapp
+      label: WhatsApp
+      widget: object
+      fields:
+      - name: number
+        label: Número (solo dígitos, con código de país)
+        widget: string
+      - name: display
+        label: Cómo se muestra
+        widget: string
+  - name: trabajos
+    label: Trabajos del carrusel
+    file: content/trabajos.json
+    format: json
+    fields:
+    - name: items
+      label: Piezas
+      widget: list
+      summary: '{{fields.brand}} · {{fields.type}}'
+      fields:
+      - name: type
+        label: Tipo
+        widget: select
+        options:
+        - label: Anuncio (imagen)
+          value: anuncio
+        - label: Video
+          value: video
+        - label: Video casero (con sonido)
+          value: casero
+      - name: brand
+        label: Marca
+        widget: string
+      - name: rubro
+        label: Rubro
+        widget: select
+        options:
+        - agriturismo
+        - cosmetica
+        - deporte
+        - panaderia
+        - cocina
+        - cine
+        - sangucheria
+        - bebidas
+        - automotor
+        - musica
+        - moda
+        - inmobiliaria
+        - barberia
+        - producto
+      - name: src
+        label: Archivo (imagen o video .mp4)
+        widget: file
+      - name: poster
+        label: Portada del video (opcional)
+        widget: image
+        required: false
+      - name: secs
+        label: Duración en segundos (videos caseros)
+        widget: number
+        value_type: int
+        required: false
+- name: recursos
+  label: Recursos gratis
+  editor:
+    preview: false
+  files:
+  - name: recursos
+    label: Guías, skill y Mailchimp
+    file: content/recursos.json
+    format: json
+    fields:
+    - name: mailchimp
+      label: Mailchimp
+      widget: object
+      fields:
+      - name: url
+        label: Dirección del formulario
+        widget: string
+        required: false
+        hint: 'En Mailchimp: Audience → Signup forms → Embedded forms. Copiá lo que va en action="…" (termina en /subscribe/post?u=…&id=…).'
+      - name: guide_field
+        label: Campo para saber qué guía pidió (opcional)
+        widget: string
+        required: false
+        hint: Si creás un campo en tu audiencia (por ejemplo GUIA), escribí su etiqueta acá.
+    - name: skill
+      label: Skill destacada
+      widget: object
+      fields:
+      - name: active
+        label: Mostrar
+        widget: boolean
+      - name: name
+        label: Nombre
+        widget: string
+      - name: price
+        label: Precio (USD)
+        widget: number
+        value_type: int
+      - name: buy_url
+        label: Link de compra
+        widget: string
+        required: false
+        hint: Si lo dejás vacío, el botón abre WhatsApp.
+      - name: video
+        label: Video
+        widget: file
+      - name: desc
+        label: Descripción
+        widget: object
+        fields:
+        - name: es
+          label: Español
+          widget: text
+        - name: it
+          label: Italiano
+          widget: text
+          required: false
+        - name: en
+          label: Inglés
+          widget: text
+          required: false
+      - name: bullets
+        label: Puntos
+        widget: object
+        fields:
+        - name: es
+          label: Español
+          widget: list
+          field:
+            name: punto
+            label: Punto
+            widget: string
+        - name: it
+          label: Italiano
+          widget: list
+          field:
+            name: punto
+            label: Punto
+            widget: string
+        - name: en
+          label: Inglés
+          widget: list
+          field:
+            name: punto
+            label: Punto
+            widget: string
+    - name: guides
+      label: Guías
+      widget: list
+      summary: '{{fields.slug}}'
+      fields:
+      - name: slug
+        label: Código (sin espacios)
+        widget: string
+      - name: kind
+        label: Tipo
+        widget: select
+        options:
+        - label: Guía
+          value: guia
+        - label: Prompt
+          value: prompt
+      - name: pages
+        label: Páginas
+        widget: number
+        value_type: int
+      - name: cover
+        label: Portada
+        widget: image
+        required: false
+      - name: mailchimp_tag
+        label: ID de etiqueta de Mailchimp (opcional)
+        widget: string
+        required: false
+        hint: Con una etiqueta por guía, en Mailchimp armás un envío automático que manda el PDF correcto.
+      - name: title
+        label: Título
+        widget: object
+        fields:
+        - name: es
+          label: Español
+          widget: string
+        - name: it
+          label: Italiano
+          widget: string
+          required: false
+        - name: en
+          label: Inglés
+          widget: string
+          required: false
+      - name: desc
+        label: Descripción
+        widget: object
+        fields:
+        - name: es
+          label: Español
+          widget: text
+        - name: it
+          label: Italiano
+          widget: text
+          required: false
+        - name: en
+          label: Inglés
+          widget: text
+          required: false
+- name: textos
+  label: Textos de la web
+  editor:
+    preview: false
+  files:
+  - name: es
+    label: Textos en español
+    file: content/textos/es.json
+    format: json
+    fields: &id001
+    - name: intro
+      label: Intro (el chat del principio)
+      widget: object
+      collapsed: true
+      fields:
+      - name: hi
+        label: Hi
+        widget: string
+        required: false
+      - name: ask
+        label: Ask
+        widget: string
+        required: false
+      - name: prompt
+        label: Prompt
+        widget: string
+        required: false
+      - name: ok
+        label: Ok
+        widget: string
+        required: false
+      - name: steps
+        label: Pasos
+        widget: list
+        field:
+          name: item
+          label: Texto
+          widget: string
+      - name: skip
+        label: Skip
+        widget: string
+        required: false
+      - name: placeholder
+        label: Placeholder
+        widget: string
+        required: false
+      - name: send
+        label: Send
+        widget: string
+        required: false
+      - name: online
+        label: Online
+        widget: string
+        required: false
+      - name: typing
+        label: Typing
+        widget: string
+        required: false
+    - name: nav
+      label: Menú
+      widget: object
+      collapsed: true
+      fields:
+      - name: work
+        label: Work
+        widget: string
+        required: false
+      - name: how
+        label: How
+        widget: string
+        required: false
+      - name: about
+        label: About
+        widget: string
+        required: false
+      - name: pricing
+        label: Pricing
+        widget: string
+        required: false
+      - name: faq
+        label: Faq
+        widget: string
+        required: false
+      - name: resources
+        label: Resources
+        widget: string
+        required: false
+      - name: cta
+        label: Botón
+        widget: string
+        required: false
+      - name: menu
+        label: Menu
+        widget: string
+        required: false
+      - name: close
+        label: Close
+        widget: string
+        required: false
+    - name: hero
+      label: Inicio
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: text
+        required: false
+      - name: cta
+        label: Botón
+        widget: string
+        required: false
+      - name: ctaAlt
+        label: Botón secundario
+        widget: string
+        required: false
+      - name: tilesLabel
+        label: Tileslabel
+        widget: string
+        required: false
+    - name: statement
+      label: Frase de los logos
+      widget: text
+      required: false
+      hint: 'Los {0} {1} {2}… son los huecos donde bajan los logos. No los borres: movelos si cambiás la frase.'
+    - name: savia
+      label: Caso Savia
+      widget: object
+      collapsed: true
+      fields:
+      - name: kicker
+        label: Kicker
+        widget: string
+        required: false
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: text
+        required: false
+      - name: source
+        label: Source
+        widget: string
+        required: false
+      - name: count
+        label: Count
+        widget: string
+        required: false
+      - name: foot
+        label: Foot
+        widget: string
+        required: false
+      - name: formats
+        label: Formats
+        widget: object
+        collapsed: true
+        fields:
+        - name: historia
+          label: Historia
+          widget: string
+          required: false
+        - name: nativo
+          label: Nativo
+          widget: string
+          required: false
+        - name: anuncio
+          label: Anuncio
+          widget: string
+          required: false
+        - name: casero
+          label: Casero
+          widget: string
+          required: false
+        - name: lifestyle
+          label: Lifestyle
+          widget: string
+          required: false
+        - name: comparativa
+          label: Comparativa
+          widget: string
+          required: false
+    - name: game
+      label: Juego ¿Cuál es la foto real?
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: text
+        required: false
+      - name: round
+        label: Round
+        widget: string
+        required: false
+      - name: of
+        label: Of
+        widget: string
+        required: false
+      - name: real
+        label: Real
+        widget: string
+        required: false
+      - name: mine
+        label: Mine
+        widget: string
+        required: false
+      - name: right
+        label: Right
+        widget: string
+        required: false
+      - name: wrong
+        label: Wrong
+        widget: string
+        required: false
+      - name: notes
+        label: Notas
+        widget: list
+        field:
+          name: item
+          label: Texto
+          widget: string
+      - name: next
+        label: Next
+        widget: string
+        required: false
+      - name: results
+        label: Results
+        widget: string
+        required: false
+      - name: scoreLead
+        label: Scorelead
+        widget: string
+        required: false
+      - name: perfect
+        label: Perfect
+        widget: string
+        required: false
+      - name: good
+        label: Good
+        widget: string
+        required: false
+      - name: none
+        label: None
+        widget: string
+        required: false
+      - name: cta
+        label: Botón
+        widget: string
+        required: false
+      - name: again
+        label: Again
+        widget: string
+        required: false
+      - name: pick
+        label: Pick
+        widget: string
+        required: false
+    - name: how
+      label: Cómo funciona
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: text
+        required: false
+      - name: steps
+        label: Pasos
+        widget: list
+        collapsed: true
+        summary: '{{fields.t}}'
+        fields:
+        - name: t
+          label: Título
+          widget: string
+          required: false
+        - name: d
+          label: Descripción
+          widget: text
+          required: false
+        - name: when
+          label: Cuándo
+          widget: string
+          required: false
+      - name: phone
+        label: Pantallas del teléfono
+        widget: object
+        collapsed: true
+        fields:
+        - name: chat
+          label: Chat
+          widget: string
+          required: false
+        - name: online
+          label: Online
+          widget: string
+          required: false
+        - name: send
+          label: Send
+          widget: string
+          required: false
+        - name: ok
+          label: Ok
+          widget: string
+          required: false
+        - name: ficha
+          label: Ficha
+          widget: string
+          required: false
+        - name: rows
+          label: Filas
+          widget: list
+          collapsed: true
+          summary: '{{fields.k}}'
+          fields:
+          - name: k
+            label: Clave (no cambiar)
+            widget: string
+            required: false
+          - name: v
+            label: Valor
+            widget: string
+            required: false
+        - name: week
+          label: Días
+          widget: string
+          required: false
+        - name: days
+          label: Days
+          widget: list
+          field:
+            name: item
+            label: Texto
+            widget: string
+        - name: pieces
+          label: Pieces
+          widget: string
+          required: false
+        - name: approve
+          label: Approve
+          widget: string
+          required: false
+        - name: approved
+          label: Approved
+          widget: string
+          required: false
+        - name: ask
+          label: Ask
+          widget: string
+          required: false
+        - name: fixed
+          label: Fixed
+          widget: string
+          required: false
+        - name: learned
+          label: Learned
+          widget: string
+          required: false
+    - name: about
+      label: Soy Piero
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: body
+        label: Texto
+        widget: text
+        required: false
+      - name: role
+        label: Role
+        widget: string
+        required: false
+      - name: stats
+        label: Números
+        widget: object
+        collapsed: true
+        fields:
+        - name: clients
+          label: Clients
+          widget: string
+          required: false
+        - name: pieces
+          label: Pieces
+          widget: string
+          required: false
+        - name: years
+          label: Years
+          widget: string
+          required: false
+      - name: flip
+        label: Flip
+        widget: string
+        required: false
+      - name: flipShort
+        label: Flipshort
+        widget: string
+        required: false
+      - name: backTitle
+        label: Backtitle
+        widget: string
+        required: false
+      - name: backCta
+        label: Backcta
+        widget: string
+        required: false
+      - name: follow
+        label: Follow
+        widget: string
+        required: false
+      - name: clientsLabel
+        label: Clientslabel
+        widget: string
+        required: false
+      hint: En "Números" van solo las etiquetas; los números se cambian en Números y contacto.
+    - name: pricing
+      label: Precios (textos)
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: ticket
+        label: Ticket del piloto
+        widget: object
+        collapsed: true
+        fields:
+        - name: name
+          label: Name
+          widget: string
+          required: false
+        - name: once
+          label: Once
+          widget: string
+          required: false
+        - name: pieces
+          label: Pieces
+          widget: string
+          required: false
+        - name: weeks
+          label: Weeks
+          widget: string
+          required: false
+        - name: includes
+          label: Includes
+          widget: text
+          required: false
+        - name: discount
+          label: Discount
+          widget: string
+          required: false
+        - name: admit
+          label: Admit
+          widget: string
+          required: false
+        - name: admitV
+          label: Admitv
+          widget: string
+          required: false
+        - name: guarantee
+          label: Guarantee
+          widget: text
+          required: false
+        - name: stamp
+          label: Stamp
+          widget: string
+          required: false
+        - name: cta
+          label: Botón
+          widget: string
+          required: false
+      - name: plansTitle
+        label: Planstitle
+        widget: string
+        required: false
+      - name: perWeek
+        label: Perweek
+        widget: string
+        required: false
+      - name: perMonth
+        label: Permonth
+        widget: string
+        required: false
+      - name: month
+        label: Month
+        widget: string
+        required: false
+      - name: names
+        label: Nombres
+        widget: object
+        collapsed: true
+        fields:
+        - name: base
+          label: Base
+          widget: string
+          required: false
+        - name: estandar
+          label: Estandar
+          widget: string
+          required: false
+        - name: completo
+          label: Completo
+          widget: string
+          required: false
+      - name: recommended
+        label: Recommended
+        widget: string
+        required: false
+      - name: week
+        label: Días
+        widget: list
+        field:
+          name: item
+          label: Texto
+          widget: string
+      - name: formats
+        label: Formats
+        widget: string
+        required: false
+      - name: publishYes
+        label: Publishyes
+        widget: string
+        required: false
+      - name: publishNo
+        label: Publishno
+        widget: string
+        required: false
+      - name: noContract
+        label: Nocontract
+        widget: string
+        required: false
+      - name: cta
+        label: Botón
+        widget: string
+        required: false
+      - name: changes
+        label: Changes
+        widget: string
+        required: false
+      - name: priority
+        label: Priority
+        widget: string
+        required: false
+      hint: Los precios se cambian en Precios y ofertas. Acá van solo los textos. {h} = horas, {price} = precio.
+    - name: faq
+      label: Preguntas frecuentes
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: string
+        required: false
+      - name: typing
+        label: Typing
+        widget: string
+        required: false
+      - name: items
+        label: Elementos
+        widget: list
+        collapsed: true
+        summary: '{{fields.q}}'
+        fields:
+        - name: q
+          label: Pregunta
+          widget: string
+          required: false
+        - name: a
+          label: Respuesta
+          widget: text
+          required: false
+      hint: '{price} se reemplaza solo por el precio del piloto.'
+    - name: sample
+      label: Muestra gratis
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: text
+        required: false
+      - name: points
+        label: Puntos
+        widget: list
+        field:
+          name: item
+          label: Texto
+          widget: string
+      - name: step
+        label: Step
+        widget: string
+        required: false
+      - name: of
+        label: Of
+        widget: string
+        required: false
+      - name: next
+        label: Next
+        widget: string
+        required: false
+      - name: back
+        label: Back
+        widget: string
+        required: false
+      - name: qs
+        label: Qs
+        widget: list
+        collapsed: true
+        summary: '{{fields.k}}'
+        fields:
+        - name: k
+          label: Clave (no cambiar)
+          widget: string
+          required: false
+        - name: q
+          label: Pregunta
+          widget: string
+          required: false
+        - name: opts
+          label: Opciones
+          widget: list
+          field:
+            name: item
+            label: Texto
+            widget: string
+      - name: labels
+        label: Etiquetas
+        widget: object
+        collapsed: true
+        fields:
+        - name: rubro
+          label: Rubro
+          widget: string
+          required: false
+        - name: ig
+          label: Ig
+          widget: string
+          required: false
+        - name: hoy
+          label: Hoy
+          widget: string
+          required: false
+        - name: frecuencia
+          label: Frecuencia
+          widget: string
+          required: false
+        - name: inversion
+          label: Inversion
+          widget: string
+          required: false
+      - name: done
+        label: Done
+        widget: string
+        required: false
+      - name: send
+        label: Send
+        widget: string
+        required: false
+      - name: fine
+        label: Fine
+        widget: string
+        required: false
+      - name: hello
+        label: Hello
+        widget: string
+        required: false
+    - name: footer
+      label: Footer
+      widget: object
+      collapsed: true
+      fields:
+      - name: big
+        label: Big
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: string
+        required: false
+      - name: wa
+        label: Wa
+        widget: string
+        required: false
+      - name: play
+        label: Play
+        widget: string
+        required: false
+      - name: nav
+        label: Nav
+        widget: string
+        required: false
+      - name: social
+        label: Social
+        widget: string
+        required: false
+      - name: contact
+        label: Contact
+        widget: string
+        required: false
+      - name: resources
+        label: Resources
+        widget: string
+        required: false
+      - name: rights
+        label: Rights
+        widget: string
+        required: false
+      - name: top
+        label: Top
+        widget: string
+        required: false
+    - name: work
+      label: El trabajo
+      widget: object
+      collapsed: true
+      fields:
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: sub
+        label: Sub
+        widget: text
+        required: false
+      - name: filters
+        label: Filtros
+        widget: object
+        collapsed: true
+        fields:
+        - name: all
+          label: All
+          widget: string
+          required: false
+        - name: anuncio
+          label: Anuncio
+          widget: string
+          required: false
+        - name: video
+          label: Video
+          widget: string
+          required: false
+        - name: casero
+          label: Casero
+          widget: string
+          required: false
+      - name: types
+        label: Tipos
+        widget: object
+        collapsed: true
+        fields:
+        - name: anuncio
+          label: Anuncio
+          widget: string
+          required: false
+        - name: video
+          label: Video
+          widget: string
+          required: false
+        - name: casero
+          label: Casero
+          widget: string
+          required: false
+      - name: drag
+        label: Drag
+        widget: string
+        required: false
+      - name: view
+        label: View
+        widget: string
+        required: false
+      - name: play
+        label: Play
+        widget: string
+        required: false
+      - name: close
+        label: Close
+        widget: string
+        required: false
+      - name: prev
+        label: Prev
+        widget: string
+        required: false
+      - name: next
+        label: Next
+        widget: string
+        required: false
+      - name: sound
+        label: Sound
+        widget: string
+        required: false
+      - name: rubros
+        label: Rubros
+        widget: object
+        collapsed: true
+        fields:
+        - name: agriturismo
+          label: Agriturismo
+          widget: string
+          required: false
+        - name: cosmetica
+          label: Cosmetica
+          widget: string
+          required: false
+        - name: deporte
+          label: Deporte
+          widget: string
+          required: false
+        - name: panaderia
+          label: Panaderia
+          widget: string
+          required: false
+        - name: cocina
+          label: Cocina
+          widget: string
+          required: false
+        - name: cine
+          label: Cine
+          widget: string
+          required: false
+        - name: sangucheria
+          label: Sangucheria
+          widget: string
+          required: false
+        - name: bebidas
+          label: Bebidas
+          widget: string
+          required: false
+        - name: automotor
+          label: Automotor
+          widget: string
+          required: false
+        - name: musica
+          label: Musica
+          widget: string
+          required: false
+        - name: moda
+          label: Moda
+          widget: string
+          required: false
+        - name: inmobiliaria
+          label: Inmobiliaria
+          widget: string
+          required: false
+        - name: barberia
+          label: Barberia
+          widget: string
+          required: false
+        - name: producto
+          label: Producto
+          widget: string
+          required: false
+    - name: offer
+      label: Oferta (etiquetas)
+      widget: object
+      collapsed: true
+      fields:
+      - name: badge
+        label: Badge
+        widget: string
+        required: false
+      - name: until
+        label: Until
+        widget: string
+        required: false
+      - name: close
+        label: Close
+        widget: string
+        required: false
+    - name: recursos
+      label: Recursos (textos)
+      widget: object
+      collapsed: true
+      fields:
+      - name: nav
+        label: Nav
+        widget: string
+        required: false
+      - name: title
+        label: Título
+        widget: string
+        required: false
+      - name: lead
+        label: Bajada
+        widget: text
+        required: false
+      - name: filters
+        label: Filtros
+        widget: object
+        collapsed: true
+        fields:
+        - name: all
+          label: All
+          widget: string
+          required: false
+        - name: guia
+          label: Guia
+          widget: string
+          required: false
+        - name: prompt
+          label: Prompt
+          widget: string
+          required: false
+      - name: pages
+        label: Pages
+        widget: string
+        required: false
+      - name: free
+        label: Free
+        widget: string
+        required: false
+      - name: get
+        label: Get
+        widget: string
+        required: false
+      - name: email
+        label: Email
+        widget: string
+        required: false
+      - name: send
+        label: Send
+        widget: string
+        required: false
+      - name: sending
+        label: Sending
+        widget: string
+        required: false
+      - name: ok
+        label: Ok
+        widget: string
+        required: false
+      - name: already
+        label: Already
+        widget: string
+        required: false
+      - name: error
+        label: Error
+        widget: string
+        required: false
+      - name: invalid
+        label: Invalid
+        widget: string
+        required: false
+      - name: skillTag
+        label: Skilltag
+        widget: string
+        required: false
+      - name: buy
+        label: Buy
+        widget: string
+        required: false
+      - name: notifyTitle
+        label: Notifytitle
+        widget: string
+        required: false
+      - name: notifyLead
+        label: Notifylead
+        widget: string
+        required: false
+      - name: notifyBtn
+        label: Notifybtn
+        widget: string
+        required: false
+      - name: back
+        label: Back
+        widget: string
+        required: false
+      - name: featured
+        label: Featured
+        widget: string
+        required: false
+  - name: it
+    label: Textos en italiano
+    file: content/textos/it.json
+    format: json
+    fields: *id001
+  - name: en
+    label: Textos en inglés
+    file: content/textos/en.json
+    format: json
+    fields: *id001

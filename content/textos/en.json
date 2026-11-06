@@ -1,0 +1,388 @@
+{
+  "intro": {
+    "hi": "Hi, I’m Piero.",
+    "ask": "What do you want me to show you?",
+    "prompt": "Open Piero’s page",
+    "ok": "Sure, building it now:",
+    "steps": [
+      "Hanging the tools",
+      "Loading the work",
+      "Done"
+    ],
+    "skip": "Skip intro",
+    "placeholder": "Type a message…",
+    "send": "Send",
+    "online": "online",
+    "typing": "typing…"
+  },
+  "nav": {
+    "work": "Work",
+    "how": "How it works",
+    "about": "About",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "resources": "Resources",
+    "cta": "Free sample",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "title": "I automate your content so you post every single week.",
+    "lead": "I create your brand’s content with your real products, follow what’s working in your industry and publish it as soon as you give me the OK.",
+    "cta": "Get your free sample",
+    "ctaAlt": "See the work",
+    "tilesLabel": "Tools Piero works with. You can grab and move them."
+  },
+  "statement": "From one photo of your product {0} {1} comes a month of content {2} {3} {4}: ads, carousels and videos {5} ready to post.",
+  "savia": {
+    "kicker": "Savia Tierra Patagonia",
+    "title": "Your product doesn’t need a day of shooting.",
+    "lead": "From one photo of your product I make ads, carousels and videos that don’t look alike: the founder’s story, the phone note, the phone-shot video, the comparison, the clean ad.",
+    "source": "The photo they sent",
+    "count": "pieces",
+    "foot": "One product photo · twenty pieces · no format repeated",
+    "formats": {
+      "historia": "Story",
+      "nativo": "Phone note",
+      "anuncio": "Ad",
+      "casero": "Phone-shot video",
+      "lifestyle": "Lifestyle",
+      "comparativa": "Comparison"
+    }
+  },
+  "game": {
+    "title": "Which photo is real?",
+    "lead": "One is real. I made the other one from a single photo. Tap the one you think is real.",
+    "round": "Round",
+    "of": "of",
+    "real": "Real",
+    "mine": "I made this",
+    "right": "Right, that’s the real one.",
+    "wrong": "Nope: I made that one.",
+    "notes": [
+      "The other one never saw a photo studio.",
+      "It’s me both times: one is a selfie, the other I made without a camera.",
+      "One is the catalog photo. I made the other."
+    ],
+    "next": "Next round",
+    "results": "See your score",
+    "scoreLead": "You got",
+    "perfect": "You’ve got a sharp eye. Your customers won’t.",
+    "good": "Close. That’s how hard it is to tell.",
+    "none": "That’s how hard it is to tell.",
+    "cta": "Get your free sample",
+    "again": "Play again",
+    "pick": "Pick photo"
+  },
+  "how": {
+    "title": "How it works",
+    "lead": "Send me whatever you have. I take care of the rest. On your side, a few minutes a week to review and approve from your phone.",
+    "steps": [
+      {
+        "t": "You send me your photos",
+        "d": "Phone photos are fine. With your Instagram and a couple of photos I can get started.",
+        "when": "Day 1"
+      },
+      {
+        "t": "I build your brand sheet",
+        "d": "Colors, logo, tone of voice, who you sell to and what’s working in your industry. I test it before week one.",
+        "when": "Days 2 and 3"
+      },
+      {
+        "t": "Every week you get your content",
+        "d": "Reels, carousels, stories and ads to approve from your phone. You post them or I post them for you.",
+        "when": "Every Monday"
+      },
+      {
+        "t": "Every change improves the next batch",
+        "d": "Ask for a change and I fix it that same week. The sheet gets updated and the next batch comes out the way you like.",
+        "when": "That same week"
+      }
+    ],
+    "phone": {
+      "chat": "Piero",
+      "online": "online",
+      "send": "Here are the photos I have",
+      "ok": "That’s enough. Starting now.",
+      "ficha": "Your brand sheet",
+      "rows": [
+        {
+          "k": "Tone",
+          "v": "Warm, straight to the point"
+        },
+        {
+          "k": "Colors",
+          "v": ""
+        },
+        {
+          "k": "Sells to",
+          "v": "Women aged 28 to 45"
+        },
+        {
+          "k": "Industry",
+          "v": "What’s working this week"
+        }
+      ],
+      "week": "This week",
+      "days": [
+        "M",
+        "T",
+        "W",
+        "T",
+        "F",
+        "S",
+        "S"
+      ],
+      "pieces": "4 pieces",
+      "approve": "Approve all",
+      "approved": "Approved",
+      "ask": "Make this background lighter",
+      "fixed": "Done, it’s fixed",
+      "learned": "Sheet updated: light backgrounds"
+    }
+  },
+  "about": {
+    "title": "I’m Piero.",
+    "body": "I’ve been creating content for brands for two years. I started with my own account and that’s where this system came from. I test everything on my own channels first, and what works, I use on yours.",
+    "role": "Content for brands",
+    "stats": {
+      "clients": "Clients",
+      "pieces": "Pieces",
+      "years": "Years"
+    },
+    "flip": "Flip the card",
+    "flipShort": "Flip",
+    "backTitle": "Shall we make your brand’s content?",
+    "backCta": "Get your free sample",
+    "follow": "Follow me",
+    "clientsLabel": "Brands I’ve worked with"
+  },
+  "pricing": {
+    "title": "Try it for two weeks with your brand.",
+    "ticket": {
+      "name": "The pilot",
+      "once": "One-time",
+      "pieces": "pieces",
+      "weeks": "weeks",
+      "includes": "8 images, 1 carousel and 1 video, in two weekly drops, with your brand sheet and the copy for each piece.",
+      "discount": "If we keep going, it’s taken off your first month.",
+      "admit": "Valid for",
+      "admitV": "1 brand",
+      "guarantee": "If you wouldn’t post what I send you, I refund the USD {price} and the pieces are still yours.",
+      "stamp": "Money-back guarantee",
+      "cta": "Start with the free sample"
+    },
+    "plansTitle": "Then choose how much you want to post.",
+    "perWeek": "pieces per week",
+    "perMonth": "a month",
+    "month": "/ month",
+    "names": {
+      "base": "Basic",
+      "estandar": "Standard",
+      "completo": "Complete"
+    },
+    "recommended": "My pick",
+    "week": [
+      "M",
+      "T",
+      "W",
+      "T",
+      "F",
+      "S",
+      "S"
+    ],
+    "formats": "Images, carousels and videos",
+    "publishYes": "Posting included, if you want",
+    "publishNo": "You do the posting",
+    "noContract": "No contract. Pay month to month and stop whenever you want.",
+    "cta": "I want this plan",
+    "changes": "Changes within {h} h",
+    "priority": ", priority"
+  },
+  "faq": {
+    "title": "What people ask me before we start.",
+    "lead": "Tap a question and I’ll answer.",
+    "typing": "Piero is typing…",
+    "items": [
+      {
+        "q": "Can people tell I made it, not a camera?",
+        "a": "That’s what I work on the most: if it shows, the piece is useless. That’s why the pilot exists: you see ten pieces made for your brand before committing, and if you wouldn’t post them I refund what you paid."
+      },
+      {
+        "q": "How much of my time does it take?",
+        "a": "At first, one call to get to know your brand. After that, a few minutes a week to review what I send and approve it or ask for changes."
+      },
+      {
+        "q": "Do I have to film myself?",
+        "a": "No. I make the videos with your product and with people created for your brand, filmed the way a customer would film them. If you want to appear, that works too."
+      },
+      {
+        "q": "Do you post it for me?",
+        "a": "Your choice. If I post it, you connect your account once to the scheduling tool I use, without giving me your password. If you’d rather post it yourself, I deliver it ready with the copy for each piece."
+      },
+      {
+        "q": "What if I don’t like a piece?",
+        "a": "Ask for the change and I fix it that same week. Your brand sheet keeps that change, so you don’t have to ask again."
+      },
+      {
+        "q": "Is there a contract?",
+        "a": "No. We start with the USD {price} pilot, which comes off your first month if we keep going. After that it’s month to month and you tell me when you want to stop."
+      }
+    ]
+  },
+  "sample": {
+    "title": "Get your free sample.",
+    "lead": "Answer five questions and I’ll make an ad with your brand’s products.",
+    "points": [
+      "Ready in 48 h",
+      "Free, no strings",
+      "I write to you, not a bot"
+    ],
+    "step": "Step",
+    "of": "of",
+    "next": "Next",
+    "back": "Back",
+    "qs": [
+      {
+        "k": "rubro",
+        "q": "What do you sell?",
+        "opts": [
+          "Clothing & accessories",
+          "Beauty & skincare",
+          "Food & drinks",
+          "Health & wellness",
+          "Home & decor",
+          "Travel & hospitality",
+          "Services",
+          "Other"
+        ]
+      },
+      {
+        "k": "ig",
+        "q": "What’s your business Instagram?",
+        "input": "yourbrand"
+      },
+      {
+        "k": "hoy",
+        "q": "Who makes your content today?",
+        "opts": [
+          "Me",
+          "A designer or social media manager",
+          "An agency",
+          "Nobody"
+        ]
+      },
+      {
+        "k": "frecuencia",
+        "q": "How often do you post?",
+        "opts": [
+          "Hardly ever",
+          "Once a week",
+          "Several times a week"
+        ]
+      },
+      {
+        "k": "inversion",
+        "q": "How much can you invest in content per month?",
+        "opts": [
+          "Under USD 150",
+          "USD 150 to 300",
+          "Over USD 300"
+        ]
+      }
+    ],
+    "labels": {
+      "rubro": "I sell",
+      "ig": "Instagram",
+      "hoy": "Content made by",
+      "frecuencia": "I post",
+      "inversion": "Budget"
+    },
+    "done": "Done. This is what I’ll get:",
+    "send": "Send on WhatsApp",
+    "fine": "A chat with me opens with your answers already written.",
+    "hello": "Hi Piero, I’d like my free sample."
+  },
+  "footer": {
+    "big": "Shall we start?",
+    "lead": "Message me and in 48 h you’ll have your first piece.",
+    "wa": "Message me on WhatsApp",
+    "play": "Throw",
+    "nav": "Page",
+    "social": "Social",
+    "contact": "Contact",
+    "resources": "Free resources & guides",
+    "rights": "All rights reserved.",
+    "top": "Back to top"
+  },
+  "work": {
+    "title": "The work",
+    "sub": "Ads, videos and phone-shot videos for brands across industries. Drag to browse.",
+    "filters": {
+      "all": "All",
+      "anuncio": "Ads",
+      "video": "Videos",
+      "casero": "Phone-shot"
+    },
+    "types": {
+      "anuncio": "Ad",
+      "video": "Video",
+      "casero": "Phone-shot video"
+    },
+    "drag": "Drag",
+    "view": "View",
+    "play": "Play",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "sound": "With sound",
+    "rubros": {
+      "agriturismo": "Farm stay",
+      "cosmetica": "Skincare",
+      "deporte": "Sport",
+      "panaderia": "Bakery",
+      "cocina": "Cookware",
+      "cine": "Film",
+      "sangucheria": "Sandwich shop",
+      "bebidas": "Drinks",
+      "automotor": "Automotive",
+      "musica": "Music",
+      "moda": "Fashion",
+      "inmobiliaria": "Real estate",
+      "barberia": "Barbershop",
+      "producto": "Product"
+    }
+  },
+  "offer": {
+    "badge": "Deal",
+    "until": "Until {date}",
+    "close": "Close"
+  },
+  "recursos": {
+    "nav": "Resources",
+    "title": "Free resources.",
+    "lead": "The guides and tools I use to make my content. The guides are free: leave your email and they land in your inbox.",
+    "filters": {
+      "all": "All",
+      "guia": "Guides",
+      "prompt": "Prompts"
+    },
+    "pages": "pages",
+    "free": "Free",
+    "get": "Get it free",
+    "email": "Your email",
+    "send": "Send it",
+    "sending": "Sending…",
+    "ok": "Done. Check your inbox (and spam, just in case).",
+    "already": "You were already on the list. Check your inbox.",
+    "error": "Couldn’t send it. Try again or message me on WhatsApp.",
+    "invalid": "That email doesn’t look right.",
+    "skillTag": "Skill · one-time payment",
+    "buy": "I want {name}",
+    "notifyTitle": "More coming.",
+    "notifyLead": "Leave your email and I’ll let you know when the next guide or skill is out.",
+    "notifyBtn": "Notify me",
+    "back": "Back to the page",
+    "featured": "Most downloaded"
+  }
+}

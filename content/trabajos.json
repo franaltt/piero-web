@@ -1,0 +1,244 @@
+{
+  "items": [
+    {
+      "type": "anuncio",
+      "brand": "Solco",
+      "rubro": "agriturismo",
+      "src": "/trabajos/img/solco-1.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "casero",
+      "brand": "Savia Tierra",
+      "rubro": "cosmetica",
+      "secs": 10,
+      "src": "/trabajos/casero/savia.mp4",
+      "poster": "/trabajos/casero/savia.jpg"
+    },
+    {
+      "type": "video",
+      "brand": "Esquí",
+      "rubro": "deporte",
+      "src": "/trabajos/video/esqui.mp4",
+      "poster": "/trabajos/video/esqui.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Miga",
+      "rubro": "panaderia",
+      "src": "/trabajos/img/miga-5.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Kankay",
+      "rubro": "cocina",
+      "src": "/trabajos/img/kk-2.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Samurái",
+      "rubro": "cine",
+      "src": "/trabajos/video/samurai.mp4",
+      "poster": "/trabajos/video/samurai.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Savia Tierra",
+      "rubro": "cosmetica",
+      "src": "/trabajos/img/salida-3.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "casero",
+      "brand": "Solco",
+      "rubro": "agriturismo",
+      "secs": 10,
+      "src": "/trabajos/casero/solco.mp4",
+      "poster": "/trabajos/casero/solco.jpg"
+    },
+    {
+      "type": "anuncio",
+      "brand": "Guchini",
+      "rubro": "sangucheria",
+      "src": "/trabajos/img/guchini-3.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Jugo natural",
+      "rubro": "bebidas",
+      "src": "/trabajos/video/jugo.mp4",
+      "poster": "/trabajos/video/jugo.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Solco",
+      "rubro": "agriturismo",
+      "src": "/trabajos/img/solco-2.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Auto en la nieve",
+      "rubro": "automotor",
+      "src": "/trabajos/video/porsche-nieve.mp4",
+      "poster": "/trabajos/video/porsche-nieve.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Kankay",
+      "rubro": "cocina",
+      "src": "/trabajos/img/kk-1.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "casero",
+      "brand": "Miga",
+      "rubro": "panaderia",
+      "secs": 10,
+      "src": "/trabajos/casero/miga.mp4",
+      "poster": "/trabajos/casero/miga.jpg"
+    },
+    {
+      "type": "anuncio",
+      "brand": "Savia Tierra",
+      "rubro": "cosmetica",
+      "src": "/trabajos/img/salida-6.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Videoclip",
+      "rubro": "musica",
+      "src": "/trabajos/video/videoclip.mp4",
+      "poster": "/trabajos/video/videoclip.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Solco",
+      "rubro": "agriturismo",
+      "src": "/trabajos/img/solco-6.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Agua micelar",
+      "rubro": "cosmetica",
+      "src": "/trabajos/video/modelo-micelar.mp4",
+      "poster": "/trabajos/video/modelo-micelar.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Kankay",
+      "rubro": "cocina",
+      "src": "/trabajos/img/kk-3.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "casero",
+      "brand": "Guchini",
+      "rubro": "sangucheria",
+      "secs": 10,
+      "src": "/trabajos/casero/guchini.mp4",
+      "poster": "/trabajos/casero/guchini.jpg"
+    },
+    {
+      "type": "anuncio",
+      "brand": "Solco",
+      "rubro": "agriturismo",
+      "src": "/trabajos/img/solco-3.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Perfume",
+      "rubro": "moda",
+      "src": "/trabajos/video/chanel-mar.mp4",
+      "poster": "/trabajos/video/chanel-mar.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Savia Tierra",
+      "rubro": "cosmetica",
+      "src": "/trabajos/img/salida-2.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Inmobiliaria",
+      "rubro": "inmobiliaria",
+      "src": "/trabajos/video/inmobiliaria.mp4",
+      "poster": "/trabajos/video/inmobiliaria.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Solco",
+      "rubro": "agriturismo",
+      "src": "/trabajos/img/solco-5.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "casero",
+      "brand": "Kankay",
+      "rubro": "cocina",
+      "secs": 35,
+      "src": "/trabajos/casero/kankay.mp4",
+      "poster": "/trabajos/casero/kankay.jpg"
+    },
+    {
+      "type": "video",
+      "brand": "Barbería",
+      "rubro": "barberia",
+      "src": "/trabajos/video/barberia.mp4",
+      "poster": "/trabajos/video/barberia.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Savia Tierra",
+      "rubro": "cosmetica",
+      "src": "/trabajos/img/salida-1.jpg",
+      "poster": "",
+      "secs": 0
+    },
+    {
+      "type": "video",
+      "brand": "Producto en acción",
+      "rubro": "producto",
+      "src": "/trabajos/video/botatio.mp4",
+      "poster": "/trabajos/video/botatio.jpg",
+      "secs": 0
+    },
+    {
+      "type": "anuncio",
+      "brand": "Savia Tierra",
+      "rubro": "cosmetica",
+      "src": "/trabajos/img/salida-5.jpg",
+      "poster": "",
+      "secs": 0
+    }
+  ]
+}

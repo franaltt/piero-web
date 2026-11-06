@@ -1,0 +1,21 @@
+{
+  "active": false,
+  "until": "2026-11-30",
+  "applies_to": "pilot",
+  "price": 150,
+  "title": {
+    "es": "Oferta de noviembre",
+    "it": "Offerta di novembre",
+    "en": "November deal"
+  },
+  "text": {
+    "es": "El piloto a USD {price} en vez de USD {regular}. Solo hasta el {until}.",
+    "it": "Il pilota a {price} USD invece di {regular} USD. Solo fino al {until}.",
+    "en": "The pilot for USD {price} instead of USD {regular}. Only until {until}."
+  },
+  "cta": {
+    "es": "Lo quiero",
+    "it": "Lo voglio",
+    "en": "I want it"
+  }
+}

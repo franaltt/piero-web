@@ -1,0 +1,388 @@
+{
+  "intro": {
+    "hi": "Ciao, sono Piero.",
+    "ask": "Cosa vuoi che ti mostri?",
+    "prompt": "Apri la pagina di Piero",
+    "ok": "Certo, te la preparo:",
+    "steps": [
+      "Appendo gli strumenti",
+      "Carico i lavori",
+      "Fatto"
+    ],
+    "skip": "Salta intro",
+    "placeholder": "Scrivi un messaggio…",
+    "send": "Invia",
+    "online": "online",
+    "typing": "sta scrivendo…"
+  },
+  "nav": {
+    "work": "I lavori",
+    "how": "Come funziona",
+    "about": "Chi sono",
+    "pricing": "Prezzi",
+    "faq": "Domande",
+    "resources": "Risorse",
+    "cta": "Campione gratis",
+    "menu": "Menu",
+    "close": "Chiudi"
+  },
+  "hero": {
+    "title": "Automatizzo i tuoi contenuti perché tu pubblichi ogni settimana.",
+    "lead": "Creo i contenuti del tuo brand con i tuoi prodotti reali, seguo quello che funziona nel tuo settore e li pubblico appena mi dai l’ok.",
+    "cta": "Richiedi il campione gratis",
+    "ctaAlt": "Guarda i lavori",
+    "tilesLabel": "Gli strumenti con cui lavora Piero. Puoi prenderli e muoverli."
+  },
+  "statement": "Da una foto del tuo prodotto {0} {1} nasce un mese di contenuti {2} {3} {4}: annunci, caroselli e video {5} pronti da pubblicare.",
+  "savia": {
+    "kicker": "Savia Tierra Patagonia",
+    "title": "Il tuo prodotto non ha bisogno di un giorno di shooting.",
+    "lead": "Con una foto del tuo prodotto creo annunci, caroselli e video che non si somigliano: la storia della fondatrice, la nota del telefono, il video amatoriale, il confronto, l’annuncio pulito.",
+    "source": "La foto che ha mandato",
+    "count": "contenuti",
+    "foot": "Una foto di prodotto · venti contenuti · nessun formato ripetuto",
+    "formats": {
+      "historia": "Storia",
+      "nativo": "Nota del telefono",
+      "anuncio": "Annuncio",
+      "casero": "Video amatoriale",
+      "lifestyle": "Lifestyle",
+      "comparativa": "Confronto"
+    }
+  },
+  "game": {
+    "title": "Qual è la foto vera?",
+    "lead": "Una è vera. L’altra l’ho fatta io, partendo da una foto. Tocca quella che pensi sia vera.",
+    "round": "Round",
+    "of": "di",
+    "real": "Vera",
+    "mine": "L’ho fatta io",
+    "right": "Esatto, è quella vera.",
+    "wrong": "No: questa l’ho fatta io.",
+    "notes": [
+      "L’altra non è mai passata da uno studio fotografico.",
+      "Sono io entrambe le volte: una è un selfie, l’altra l’ho fatta senza fotocamera.",
+      "Una è la foto del catalogo. L’altra l’ho fatta io."
+    ],
+    "next": "Round successivo",
+    "results": "Vedi il risultato",
+    "scoreLead": "Hai indovinato",
+    "perfect": "Hai un ottimo occhio. I tuoi clienti no.",
+    "good": "Quasi. Ecco quanto è difficile notare la differenza.",
+    "none": "Ecco quanto è difficile notare la differenza.",
+    "cta": "Richiedi il campione gratis",
+    "again": "Gioca di nuovo",
+    "pick": "Scegli la foto"
+  },
+  "how": {
+    "title": "Come funziona",
+    "lead": "Mi mandi quello che hai. Al resto penso io. Da parte tua, pochi minuti a settimana per guardare e approvare dal telefono.",
+    "steps": [
+      {
+        "t": "Mi mandi le tue foto",
+        "d": "Vanno bene anche quelle del telefono. Con il tuo Instagram e un paio di foto posso già iniziare.",
+        "when": "Giorno 1"
+      },
+      {
+        "t": "Creo la scheda del tuo brand",
+        "d": "Colori, logo, tono di voce, a chi vendi e cosa sta funzionando nel tuo settore. La provo prima della prima settimana.",
+        "when": "Giorni 2 e 3"
+      },
+      {
+        "t": "Ogni settimana ricevi i contenuti",
+        "d": "Reel, caroselli, storie e annunci da approvare dal telefono. Li pubblichi tu o li pubblico io.",
+        "when": "Ogni lunedì"
+      },
+      {
+        "t": "Ogni modifica migliora i prossimi",
+        "d": "Mi chiedi una modifica e la correggo la stessa settimana. La scheda si aggiorna e il prossimo giro esce già come ti piace.",
+        "when": "La stessa settimana"
+      }
+    ],
+    "phone": {
+      "chat": "Piero",
+      "online": "online",
+      "send": "Ti mando le foto che ho",
+      "ok": "Bastano queste. Inizio.",
+      "ficha": "Scheda del brand",
+      "rows": [
+        {
+          "k": "Tono",
+          "v": "Vicino, diretto"
+        },
+        {
+          "k": "Colori",
+          "v": ""
+        },
+        {
+          "k": "Vende a",
+          "v": "Donne dai 28 ai 45"
+        },
+        {
+          "k": "Settore",
+          "v": "Cosa funziona questa settimana"
+        }
+      ],
+      "week": "Questa settimana",
+      "days": [
+        "L",
+        "M",
+        "M",
+        "G",
+        "V",
+        "S",
+        "D"
+      ],
+      "pieces": "4 contenuti",
+      "approve": "Approva tutto",
+      "approved": "Approvati",
+      "ask": "Questo sfondo, più chiaro",
+      "fixed": "Fatto, è corretto",
+      "learned": "Scheda aggiornata: sfondi chiari"
+    }
+  },
+  "about": {
+    "title": "Sono Piero.",
+    "body": "Da due anni creo contenuti per i brand. Ho iniziato con il mio profilo e da lì è nato questo sistema. Provo tutto prima sui miei social, e quello che funziona lo uso con il tuo.",
+    "role": "Contenuti per brand",
+    "stats": {
+      "clients": "Clienti",
+      "pieces": "Contenuti",
+      "years": "Anni"
+    },
+    "flip": "Gira la carta",
+    "flipShort": "Gira",
+    "backTitle": "Creiamo i contenuti del tuo brand?",
+    "backCta": "Richiedi il campione gratis",
+    "follow": "Seguimi",
+    "clientsLabel": "Brand con cui ho lavorato"
+  },
+  "pricing": {
+    "title": "Provalo due settimane con il tuo brand.",
+    "ticket": {
+      "name": "Il pilota",
+      "once": "Una volta sola",
+      "pieces": "contenuti",
+      "weeks": "settimane",
+      "includes": "8 immagini, 1 carosello e 1 video, in due consegne settimanali, con la scheda del tuo brand e il testo di ogni contenuto.",
+      "discount": "Se continuiamo, viene scalato dal primo mese.",
+      "admit": "Valido per",
+      "admitV": "1 brand",
+      "guarantee": "Se non pubblicheresti quello che ti mando, ti restituisco i {price} USD e i contenuti restano tuoi.",
+      "stamp": "Rimborso garantito",
+      "cta": "Inizia dal campione gratis"
+    },
+    "plansTitle": "Poi scegli quanto vuoi pubblicare.",
+    "perWeek": "contenuti a settimana",
+    "perMonth": "al mese",
+    "month": "/ mese",
+    "names": {
+      "base": "Base",
+      "estandar": "Standard",
+      "completo": "Completo"
+    },
+    "recommended": "Quello che consiglio",
+    "week": [
+      "L",
+      "M",
+      "M",
+      "G",
+      "V",
+      "S",
+      "D"
+    ],
+    "formats": "Immagini, caroselli e video",
+    "publishYes": "Pubblicazione inclusa, se vuoi",
+    "publishNo": "La pubblicazione la fai tu",
+    "noContract": "Nessun contratto. Paghi mese per mese e smetti quando vuoi.",
+    "cta": "Voglio questo piano",
+    "changes": "Modifiche entro {h} h",
+    "priority": ", con priorità"
+  },
+  "faq": {
+    "title": "Le domande che mi fanno prima di iniziare.",
+    "lead": "Tocca una domanda e ti rispondo.",
+    "typing": "Piero sta scrivendo…",
+    "items": [
+      {
+        "q": "Si nota che l’ho fatto io e non una fotocamera?",
+        "a": "È la parte su cui lavoro di più: se si nota, il contenuto non serve. Per questo esiste il pilota: vedi dieci contenuti fatti per il tuo brand prima di impegnarti, e se non li pubblicheresti ti restituisco quello che hai pagato."
+      },
+      {
+        "q": "Quanto tempo mi richiede?",
+        "a": "All’inizio, una chiacchierata per conoscere il tuo brand. Poi, pochi minuti a settimana per guardare quello che ti mando e approvarlo o chiedermi modifiche."
+      },
+      {
+        "q": "Devo registrarmi in video?",
+        "a": "No. I video li faccio con il tuo prodotto e con persone create per il tuo brand, girati come li girerebbe un cliente. Se vuoi apparire tu, si può fare."
+      },
+      {
+        "q": "Li pubblichi tu?",
+        "a": "Puoi scegliere. Se li pubblico io, colleghi il tuo account una sola volta allo strumento con cui programmo, senza darmi la password. Se preferisci farlo tu, te li consegno pronti con il testo di ogni contenuto."
+      },
+      {
+        "q": "E se un contenuto non mi piace?",
+        "a": "Mi chiedi la modifica e la correggo la stessa settimana. La scheda del tuo brand si aggiorna, così non devi chiederla di nuovo."
+      },
+      {
+        "q": "C’è un contratto?",
+        "a": "No. Si parte con il pilota da {price} USD, che viene scalato dal primo mese se continuiamo. Poi è mese per mese e avvisi quando vuoi smettere."
+      }
+    ]
+  },
+  "sample": {
+    "title": "Richiedi il campione gratis.",
+    "lead": "Rispondi a cinque domande e ti preparo un annuncio con i prodotti del tuo brand.",
+    "points": [
+      "Pronto in 48 h",
+      "Gratis e senza impegno",
+      "Ti scrivo io, non un bot"
+    ],
+    "step": "Passo",
+    "of": "di",
+    "next": "Avanti",
+    "back": "Indietro",
+    "qs": [
+      {
+        "k": "rubro",
+        "q": "Cosa vendi?",
+        "opts": [
+          "Abbigliamento e accessori",
+          "Cosmetica e bellezza",
+          "Cibo e bevande",
+          "Salute e benessere",
+          "Casa e arredo",
+          "Turismo e ristorazione",
+          "Servizi",
+          "Altro"
+        ]
+      },
+      {
+        "k": "ig",
+        "q": "Qual è l’Instagram della tua attività?",
+        "input": "iltuobrand"
+      },
+      {
+        "k": "hoy",
+        "q": "Chi crea i tuoi contenuti oggi?",
+        "opts": [
+          "Io",
+          "Una grafica o social media manager",
+          "Un’agenzia",
+          "Nessuno"
+        ]
+      },
+      {
+        "k": "frecuencia",
+        "q": "Ogni quanto pubblichi?",
+        "opts": [
+          "Quasi mai",
+          "Una volta a settimana",
+          "Più volte a settimana"
+        ]
+      },
+      {
+        "k": "inversion",
+        "q": "Quanto puoi investire al mese in contenuti?",
+        "opts": [
+          "Meno di 150 USD",
+          "Da 150 a 300 USD",
+          "Più di 300 USD"
+        ]
+      }
+    ],
+    "labels": {
+      "rubro": "Vendo",
+      "ig": "Instagram",
+      "hoy": "Chi crea i contenuti",
+      "frecuencia": "Pubblico",
+      "inversion": "Posso investire"
+    },
+    "done": "Fatto. Ecco cosa mi arriva:",
+    "send": "Invia su WhatsApp",
+    "fine": "Si apre una chat con me con le tue risposte già scritte.",
+    "hello": "Ciao Piero, vorrei il mio campione gratis."
+  },
+  "footer": {
+    "big": "Iniziamo?",
+    "lead": "Scrivimi e in 48 h hai il tuo primo contenuto.",
+    "wa": "Scrivimi su WhatsApp",
+    "play": "Lanciali",
+    "nav": "Pagina",
+    "social": "Social",
+    "contact": "Contatto",
+    "resources": "Risorse e guide gratis",
+    "rights": "Tutti i diritti riservati.",
+    "top": "Torna su"
+  },
+  "work": {
+    "title": "I lavori",
+    "sub": "Annunci, video e video amatoriali per brand di settori diversi. Trascina per sfogliarli.",
+    "filters": {
+      "all": "Tutto",
+      "anuncio": "Annunci",
+      "video": "Video",
+      "casero": "Video amatoriale"
+    },
+    "types": {
+      "anuncio": "Annuncio",
+      "video": "Video",
+      "casero": "Video amatoriale"
+    },
+    "drag": "Trascina",
+    "view": "Apri",
+    "play": "Play",
+    "close": "Chiudi",
+    "prev": "Precedente",
+    "next": "Successivo",
+    "sound": "Con audio",
+    "rubros": {
+      "agriturismo": "Agriturismo",
+      "cosmetica": "Cosmetica",
+      "deporte": "Sport",
+      "panaderia": "Panetteria",
+      "cocina": "Cucina",
+      "cine": "Cinema",
+      "sangucheria": "Paninoteca",
+      "bebidas": "Bevande",
+      "automotor": "Automotive",
+      "musica": "Musica",
+      "moda": "Moda",
+      "inmobiliaria": "Immobiliare",
+      "barberia": "Barbiere",
+      "producto": "Prodotto"
+    }
+  },
+  "offer": {
+    "badge": "Offerta",
+    "until": "Fino al {date}",
+    "close": "Chiudi"
+  },
+  "recursos": {
+    "nav": "Risorse",
+    "title": "Risorse gratis.",
+    "lead": "Le guide e gli strumenti con cui creo i miei contenuti. Le guide sono gratis: lasci la tua email e ti arrivano subito.",
+    "filters": {
+      "all": "Tutto",
+      "guia": "Guide",
+      "prompt": "Prompt"
+    },
+    "pages": "pagine",
+    "free": "Gratis",
+    "get": "Scaricala gratis",
+    "email": "La tua email",
+    "send": "Inviamela",
+    "sending": "Invio…",
+    "ok": "Fatto. Controlla la tua email (e lo spam, per sicurezza).",
+    "already": "Eri già nella lista. Controlla la tua email.",
+    "error": "Non è stato possibile inviare. Riprova o scrivimi su WhatsApp.",
+    "invalid": "Questa email non sembra valida.",
+    "skillTag": "Skill · pagamento unico",
+    "buy": "Voglio {name}",
+    "notifyTitle": "Ne arrivano altre.",
+    "notifyLead": "Lasciami la tua email e ti avviso quando esce la prossima guida o skill.",
+    "notifyBtn": "Avvisami",
+    "back": "Torna alla pagina",
+    "featured": "La più scaricata"
+  }
+}
